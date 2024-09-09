@@ -1,5 +1,5 @@
 {
-  "name": "scotch",
+  "name": "scotch-fe",
   "version": "1.0.0",
   "description": "A simple, custom frontend library",
   "main": "lib/index.js",
@@ -13,7 +13,10 @@
     "frontend"
   ],
   "author": "Jamlie",
-  "repository": "Jamlie/scotch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamlie/scotch.git"
+  },
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.5.4"
