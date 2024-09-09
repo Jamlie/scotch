@@ -2,7 +2,7 @@
   "name": "scotch",
   "version": "1.0.0",
   "description": "A simple, custom frontend library",
-  "main": "index.js",
+  "main": "lib/index.js",
   "type": "module",
   "scripts": {
     "build": "esbuild ./index.ts --bundle --outfile=\"./lib/index.js\""
