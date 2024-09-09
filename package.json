@@ -1,0 +1,24 @@
+{
+  "name": "scotch",
+  "version": "1.0.0",
+  "description": "A simple, custom frontend library",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild ./index.ts --bundle --outfile=\"./lib/index.js\""
+  },
+  "keywords": [
+    "frontend framework",
+    "framework",
+    "frontend"
+  ],
+  "author": "Jamlie",
+  "repository": "Jamlie/scotch",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "esbuild": "0.23.1"
+  }
+}
